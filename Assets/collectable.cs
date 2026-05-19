@@ -7,7 +7,7 @@ public class collectable : MonoBehaviour
     
     void Start()
     {
-        
+        var test = 10;
     }
 
     
@@ -17,7 +17,7 @@ public class collectable : MonoBehaviour
     }
 
     public void Interact(){
-        Debug.Log("Player interagiu com o colet·vel");
+        Debug.Log("Player interagiu com o colet√°vel");
         Destroy(gameObject);
     }
     
